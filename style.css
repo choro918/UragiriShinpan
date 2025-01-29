@@ -1,0 +1,108 @@
+
+/*　    ナビゲート　    */
+.nav-wrapper
+{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    
+}
+.logo-wrapper
+{
+    margin: 0;
+    padding: 0;
+    /*ロゴを中央に寄せる*/
+}
+.logo
+{
+    height: 100px;
+}
+.nav-list
+{
+    font-size: 30px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+}
+.nav-list a{ 
+    color: white; 
+    text-decoration: none;
+}
+.nav-list a:hover{ color: gray; }
+
+/*   本文   */
+.main-container
+{
+    width: 100%;
+}
+
+.news-section,.about-section,.story-section,.character-section,.gamesystem-section,.product-section
+{
+    height: 100vh;
+    padding: 8vw;
+    font-size: 30px;
+}
+
+.news-top
+{
+    font-size: 70px;
+    text-align: center;
+}
+.about-top,.character-top,.product-top
+{
+    font-size: 70px;
+    text-align: left;
+}
+.story-top,.gamesystem-top
+{
+    font-size: 70px;
+    text-align: right;
+}
+/*ファーストビュー*/
+.first-view
+{
+    background-color: rgb(35, 5, 63);
+    text-align: center;
+}
+.fv-img{ height: 100vh; }
+.fv-lead
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    font-size:60px;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+/*ニュース*/
+.news-list
+{
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.news-item
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.news-item1{order: 2;}
+.news-item2{order: 1; margin: 0;}
+.news-item3{order: 3;}
+
+.news-img1{ width: 400px; }
+
+.footer
+{
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    font-size: 60px;
+}
